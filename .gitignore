@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Project Data and Assets (Ignore local test audio samples)
+core/inputs/*
+core/outputs/*
+!core/inputs/.gitkeep
+!core/outputs/.gitkeep
+
+# Local AI Model Weight Downloads / Framework Caches
+core/models/*
+.cache/
+~/.local/share/tts/
+
+# OS Specific
+.DS_Store
+Thumbs.db
